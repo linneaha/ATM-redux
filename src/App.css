@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #343942;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#atmHeader,
+#selected,
+#buttons,
+#atmFooter {
+  padding: 15px;
+}
+
+#content {
+  background-color: #282c34;
+  margin: 15px 2px 0px 2px;
+  padding: 15px;
+  align-self: center;
+}
+
+#inputDiv {
+  margin-bottom: 10px;
+}
+
+#buttons button {
+  max-width: 75px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 5px 20px;
+  max-width: 200px;
+  margin: 8px;
+  border: 2px solid #cccccc;
+  color: #000000;
+  background-color: #b4b3b3;
+}
+
+button:hover {
+  border-color: #7a7a7a;
+}
+
+button:active {
+  background-color: #999999;
+}
+
+h2 {
+  font-size: 45px;
+  margin: 0px;
+  color: rgb(10, 110, 10);
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0px;
+  color: rgb(145, 87, 17);
+}
+
+p {
+  font-size: 10px;
+  margin: 0px;
+  font-weight: bold;
+  color: #4e5563;
+  text-transform: uppercase;
+}
+
+label {
+  color: #646d80;
+}
+
+@media only screen and (min-width: 600px) {
+  #content {
+    margin: 25px;
+    padding: 35px;
+  }
+}
